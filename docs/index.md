@@ -1,6 +1,6 @@
 ---
 hero:
-  title: april-library
+  title: april-ui
   desc: This is a simple library
   actions:
     - text: 开始
@@ -18,4 +18,4 @@ features:
 footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---
 
-## Hello april-library!
+## Hello april-ui!

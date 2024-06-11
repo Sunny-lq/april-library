@@ -11,7 +11,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'april-library';
+import { Foo } from 'april-ui';
 
 export default () => <Foo title="First Demo" />;
 ```

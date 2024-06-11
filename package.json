@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "april-library",
+  "name": "april-ui",
   "version": "1.0.3",
   "scripts": {
     "start": "dumi dev",

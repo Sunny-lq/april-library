@@ -11,7 +11,7 @@ group: { title: 基础组件, order: 1 }
 
 ```tsx
 import React from 'react';
-import { Button } from 'april-library';
+import { Button } from 'april-ui';
 
 export default () => <Button text="普通按钮" style={{ width: 200 }} />;
 ```
@@ -20,7 +20,7 @@ export default () => <Button text="普通按钮" style={{ width: 200 }} />;
 
 ```tsx
 import React from 'react';
-import { Button } from 'april-library';
+import { Button } from 'april-ui';
 
 export default () => <Button text="高亮按钮" type="highlight" style={{ width: 200 }} />;
 ```
@@ -29,7 +29,7 @@ export default () => <Button text="高亮按钮" type="highlight" style={{ width
 
 ```tsx
 import React from 'react';
-import { Button } from 'april-library';
+import { Button } from 'april-ui';
 
 export default () => <Button text="禁用按钮" disabled style={{ width: 200 }} />;
 ```
