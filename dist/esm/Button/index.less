@@ -1,0 +1,26 @@
+@import '../styles/common.less';
+
+.@{btnPrefix} {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.2s linear;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #333;
+
+  &-highlight {
+    background-color: @april-highlight-bg;
+    color: @april-highlight-color;
+  }
+  &-disabled {
+    background-color: @april-disabled-bg;
+    color: @april-disabled-color;
+    border: 1px solid @april-disabled-border-color;
+  }
+}
