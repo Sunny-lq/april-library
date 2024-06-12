@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "april-library",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -30,10 +30,15 @@
     ]
   },
   "dependencies": {
+    "@ant-design/cssinjs": "^1.20.0",
+    "@ant-design/icons": "^5.3.7",
     "@types/react": "^18.3.3",
+    "antd": "^5.18.0",
     "classnames": "^2.5.1",
+    "lodash": "^4.17.21",
     "react": "^18.0.0",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-transition-group": "^4.4.5"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.15.1",
